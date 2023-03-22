@@ -8,6 +8,14 @@
   height: calc(100vh - (var(--footer-height) + var(--header-height)));
 }
 
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

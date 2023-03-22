@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  background-color: darkorchid;
+  color: aliceblue;
+  text-decoration: none;
+
+}
+/* .footer .footer-main {
+  display: flex;
+  flex-direction: column;
+} */
