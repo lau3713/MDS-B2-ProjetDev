@@ -1,0 +1,7 @@
+:root {
+    --primary-color:darkslategray;
+    --secondary-color: #35b;
+    --background-color: aliceblue;
+    --header-height: 64px;
+    --footer-height: 104px;
+}

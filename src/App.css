@@ -2,7 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
+.content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - (var(--footer-height) + var(--header-height)));
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
