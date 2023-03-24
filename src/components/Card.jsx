@@ -8,7 +8,7 @@ function Card ({ restaurant }) {
   if (attributes.image) {
     imageURL = IMAGE_URL + attributes.image.data.attributes.url
   } else {
-    imageURL = 'https://via.placeholder.com/300x150'
+    imageURL = 'https://via.placeholder.com/300x250'
   }
 
   const navigate = useNavigate()
@@ -26,7 +26,9 @@ function Card ({ restaurant }) {
         <p>{attributes.description}</p>
       </div>
       <div className='card-footer'>
-        <button onClick={handleClick}>Voir le restaurant</button>
+        <button onClick={handleClick}>
+          {mode === 'restaurant' ? 'Voir le restaurant' : 'Ajouter au panier'}
+        </button>
       </div>
     </div>
   )

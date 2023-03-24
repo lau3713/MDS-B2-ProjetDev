@@ -5,7 +5,7 @@ function Header () {
 
     <header className='header'>
       <div className='header-logo'>
-        <img src='/assets/images/logo.png' height={50} />
+        <img src='/assets/images/logo.png' height={80} />
       </div>
       <nav className='header-main'>
         <span>

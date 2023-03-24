@@ -3,14 +3,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   padding: 10px 20px;
   
 }
 
 .header .header-main span a {
   text-decoration: none;
-  color: var(--background-color);
+  color: var(--primary-color);
 }
 
 .header nav span a:hover{

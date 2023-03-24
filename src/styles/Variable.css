@@ -1,7 +1,7 @@
 :root {
-    --primary-color:darkslategray;
-    --secondary-color: #35b;
-    --background-color: aliceblue;
+    --primary-color: aliceblue;
+    --secondary-color: #35B9B2;
+    --background-color: darkslategray;
     --header-height: 64px;
     --footer-height: 104px;
 }

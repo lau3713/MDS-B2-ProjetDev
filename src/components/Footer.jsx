@@ -4,7 +4,7 @@ function Footer () {
   return (
     <footer className='footer'>
       <div className='footer-logo'>
-        <img src='https://via.placeholder.com/100x100' />
+        <img src='/assets/images/logo.png' height={90} />
       </div>
       <nav className='footer-main'>
         <a href='#Accueil'>Accueil</a>

@@ -24,8 +24,6 @@ function FicheRestaurant ({ restaurant }) {
         <p>{restaurant.attributes.adresse.phone} </p>
         <button>COMMANDER</button>
       </div>
-      {/* <div className='fiche-button'> */}
-      {/* </div> */}
     </div>
 
   )

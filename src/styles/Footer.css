@@ -1,13 +1,23 @@
 .footer {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-around;
-  background-color: rgb(255, 240, 80);
+  background-color: var(--background-color);
   color: aliceblue;
   text-decoration: none;
 
 }
-/* .footer .footer-main {
+.footer .footer-main {
   display: flex;
   flex-direction: column;
-} */
+
+}
+
+.footer .footer-main a{
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer .footer-main a:hover{
+  color: var(--secondary-color);
+}
